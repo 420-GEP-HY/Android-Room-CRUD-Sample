@@ -1,13 +1,14 @@
 package husaynhakeem.io.androidroom_crud;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
 
 import husaynhakeem.io.androidroom_crud.database.AppDataBase;
 import husaynhakeem.io.androidroom_crud.utilities.DataGenerator;
 import husaynhakeem.io.androidroom_crud.utilities.Logger;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
